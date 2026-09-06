@@ -354,25 +354,6 @@ This gives brands a more practical way to evaluate creators.
 
 ---
 
-# 🗄️ Main Data Models
-
-The backend is structured around models such as:
-
-- User
-- BrandProfile
-- CreatorProfile
-- Receipt
-- ReceiptVerification
-- Announcement
-- Pitch
-- Shortlist
-- Collaboration
-- Vouch
-- Message
-- Milestone
-
----
-
 # 🌟 Why We Chose This Problem
 
 We chose Sponsor Match because the creator economy is not only about large influencers.
