@@ -1,0 +1,888 @@
+{
+  "users": [
+    {
+      "_id": "brand-user",
+      "email": "demo@coffeeco.in",
+      "role": "BRAND",
+      "profileId": "coffee-house",
+      "passwordHash": "$2a$10$9M5KJzahhBNkDNgv1He18./e8mOUWRr7PCsobqmlh2Q7.K6NPbdGK",
+      "createdAt": "2026-09-05T14:46:57.471Z"
+    },
+    {
+      "_id": "arjun-user",
+      "email": "arjun@sponsormatch.demo",
+      "role": "CREATOR",
+      "profileId": "arjun",
+      "passwordHash": "$2a$10$CyCjIRoU/Ol6GZf80CoNseSnrktiOSQX2hz/9rGn6hcYeguiB996y",
+      "createdAt": "2026-09-05T14:46:57.583Z"
+    },
+    {
+      "_id": "priya-user",
+      "email": "priya@sponsormatch.demo",
+      "role": "CREATOR",
+      "profileId": "priya",
+      "passwordHash": "$2a$10$7Hk2bl9DYuY6dlCvpsdP9.bUpD4yOidwCtdFTemc6RG9Da9VoviIy",
+      "createdAt": "2026-09-05T14:46:57.714Z"
+    },
+    {
+      "_id": "rahul-user",
+      "email": "rahul@sponsormatch.demo",
+      "role": "CREATOR",
+      "profileId": "rahul",
+      "passwordHash": "$2a$10$oyQcPrc1xqrYCX/iVr/t5u2gJscoSXGlQKX7LBynREEopiws2kalS",
+      "createdAt": "2026-09-05T14:46:57.832Z"
+    },
+    {
+      "_id": "meena-user",
+      "email": "meena@sponsormatch.demo",
+      "role": "CREATOR",
+      "profileId": "meena",
+      "passwordHash": "$2a$10$HeVImIgD9KXCz/7y4MHd.ufBbnu8J1Sj3O9uiYchTxkel8ESi.sPm",
+      "createdAt": "2026-09-05T14:46:57.939Z"
+    },
+    {
+      "_id": "karthik-user",
+      "email": "karthik@sponsormatch.demo",
+      "role": "CREATOR",
+      "profileId": "karthik",
+      "passwordHash": "$2a$10$ZRC.Byh4tU2LgKirJy27y.KLFyVxb/hS70RD2dWDheSuXYAonKqIC",
+      "createdAt": "2026-09-05T14:46:58.048Z"
+    },
+    {
+      "_id": "user_70cc2f53",
+      "email": "rsk@gmail.com",
+      "role": "CREATOR",
+      "profileId": "creator_c235c90a",
+      "passwordHash": "$2a$10$FP6Rm.9GkZAwPpbvf1jOBeIic/YgjNN3iDs1kP6gp21T7xM26upNC",
+      "createdAt": "2026-09-06T04:22:45.792Z"
+    }
+  ],
+  "brands": [
+    {
+      "_id": "coffee-house",
+      "userId": "brand-user",
+      "name": "Coimbatore Coffee House",
+      "category": "Food & beverage",
+      "location": "Coimbatore",
+      "description": "Independent coffee, good light and a table for your next idea.",
+      "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85",
+      "address": "12, Race Course Road, Coimbatore, Tamil Nadu 641018",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "contactEmail": "demo@coffeeco.in",
+      "phone": "+91 422 245 0188",
+      "socials": {
+        "instagram": "https://instagram.com/coimbatorecoffeehouse",
+        "facebook": "https://facebook.com/coimbatorecoffeehouse",
+        "website": "https://coimbatorecoffeehouse.example"
+      },
+      "emailVerified": true,
+      "phoneVerified": false,
+      "email": "demo@coffeeco.in"
+    }
+  ],
+  "creators": [
+    {
+      "_id": "arjun",
+      "name": "Arjun Menon",
+      "username": "@arjun.eats",
+      "email": "arjun@sponsormatch.demo",
+      "category": "Food",
+      "location": "Coimbatore",
+      "followers": "2.1K",
+      "bio": "Finding the small places worth crossing town for.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=85",
+      "platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "audience": "College & young professionals",
+      "verifiedReceipts": 9,
+      "receiptCount": 14,
+      "vouches": 7,
+      "emailVerified": true,
+      "contactEmail": "arjun@sponsormatch.demo",
+      "phone": "+91 98765 43210",
+      "socials": {
+        "instagram": "https://instagram.com/arjun.eats",
+        "youtube": "https://youtube.com/@arjuneats",
+        "x": "https://x.com/arjuneats"
+      },
+      "phoneVerified": true
+    },
+    {
+      "_id": "priya",
+      "name": "Priya Shah",
+      "username": "@priyamakes",
+      "email": "priya@sponsormatch.demo",
+      "category": "Lifestyle",
+      "location": "Bengaluru",
+      "followers": "8.4K",
+      "bio": "Everyday rituals, thoughtfully made.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=85",
+      "platforms": [
+        "Instagram",
+        "TikTok"
+      ],
+      "audience": "Young urban women",
+      "verifiedReceipts": 4,
+      "receiptCount": 9,
+      "vouches": 3,
+      "contactEmail": "priya@sponsormatch.demo",
+      "phone": "+91 98765 43211",
+      "socials": {
+        "instagram": "https://instagram.com/priyamakes",
+        "youtube": "https://youtube.com/@priyamakes",
+        "facebook": "https://facebook.com/priyamakes"
+      },
+      "emailVerified": true,
+      "phoneVerified": false
+    },
+    {
+      "_id": "rahul",
+      "name": "Rahul Nair",
+      "username": "@rahulplays",
+      "email": "rahul@sponsormatch.demo",
+      "category": "Gaming",
+      "location": "Chennai",
+      "followers": "12K",
+      "bio": "Good games, great communities, no gatekeeping.",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=85",
+      "platforms": [
+        "YouTube",
+        "Twitch"
+      ],
+      "audience": "18–28 gaming audience",
+      "verifiedReceipts": 0,
+      "receiptCount": 3,
+      "vouches": 1,
+      "contactEmail": "rahul@sponsormatch.demo",
+      "phone": "+91 98765 43212",
+      "socials": {
+        "youtube": "https://youtube.com/@rahulplays",
+        "twitch": "https://twitch.tv/rahulplays"
+      },
+      "emailVerified": true,
+      "phoneVerified": false
+    },
+    {
+      "_id": "meena",
+      "name": "Meena Krishnan",
+      "username": "@meenasplate",
+      "email": "meena@sponsormatch.demo",
+      "category": "Local Food",
+      "location": "Coimbatore",
+      "followers": "1.3K",
+      "bio": "Home-style food and the people behind it.",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=85",
+      "platforms": [
+        "Instagram"
+      ],
+      "audience": "Local families & foodies",
+      "verifiedReceipts": 5,
+      "receiptCount": 8,
+      "vouches": 6,
+      "contactEmail": "meena@sponsormatch.demo",
+      "phone": "+91 98765 43213",
+      "socials": {
+        "instagram": "https://instagram.com/meenasplate"
+      },
+      "emailVerified": true,
+      "phoneVerified": false
+    },
+    {
+      "_id": "karthik",
+      "name": "Karthik Rao",
+      "username": "@roamswithk",
+      "email": "karthik@sponsormatch.demo",
+      "category": "Travel",
+      "location": "Mysuru",
+      "followers": "5.7K",
+      "bio": "Slow travel, useful maps, and stories from the road.",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=85",
+      "platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "audience": "Weekend travellers",
+      "verifiedReceipts": 2,
+      "receiptCount": 6,
+      "vouches": 3,
+      "contactEmail": "karthik@sponsormatch.demo",
+      "phone": "+91 98765 43214",
+      "socials": {
+        "instagram": "https://instagram.com/roamswithk",
+        "youtube": "https://youtube.com/@roamswithk"
+      },
+      "emailVerified": true,
+      "phoneVerified": false
+    },
+    {
+      "_id": "creator_c235c90a",
+      "userId": "user_70cc2f53",
+      "name": "sanjai kumar",
+      "username": "",
+      "category": "Creator",
+      "location": "India",
+      "bio": "",
+      "followers": "0",
+      "image": "",
+      "data": {
+        "email": "rsk@gmail.com",
+        "password": "12345",
+        "confirmPassword": "12345",
+        "name": "RSK",
+        "phone": "09655920225",
+        "creatorName": "sanjai kumar"
+      },
+      "platforms": [],
+      "audience": "",
+      "verifiedReceipts": 0,
+      "receiptCount": 0,
+      "vouches": 0,
+      "contactEmail": "rsk@gmail.com",
+      "phone": "+91 90000 00000",
+      "socials": {},
+      "emailVerified": true,
+      "phoneVerified": true
+    }
+  ],
+  "receipts": [
+    {
+      "_id": "receipt_d3cd8ea6",
+      "creatorId": "arjun",
+      "title": "Backend verification smoke receipt",
+      "type": "Footfall",
+      "description": "A verified backend workflow test receipt.",
+      "date": "2026-09-06",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Backend smoke",
+      "result": "5 verified visits",
+      "visibility": "Public",
+      "evidenceUrl": "",
+      "status": "BRAND_VERIFIED"
+    },
+    {
+      "_id": "receipt_81773a28",
+      "creatorId": "arjun",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "title": "JSON flow smoke receipt",
+      "type": "Footfall",
+      "description": "Smoke test evidence",
+      "result": "5 visits"
+    },
+    {
+      "_id": "receipt_fdecdb93",
+      "creatorId": "arjun",
+      "title": "Restaurant Campaign — 32 Customer Visits",
+      "type": "Footfall",
+      "description": "My Instagram Reel helped generate 32 visits during the campaign week.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "32 verified visits",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_65e01207",
+      "creatorId": "arjun",
+      "title": "Monsoon Bowl drop",
+      "type": "Coupon Redemption",
+      "description": "A simple coupon gave the audience a reason to act.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "21 redemptions",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_065cbf79",
+      "creatorId": "arjun",
+      "title": "Coffee Club launch",
+      "type": "Customer Response",
+      "description": "Four customers sent DMs after finding the cafe through the reel.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "4 customer DMs",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_e8f760bc",
+      "creatorId": "meena",
+      "title": "Kongu breakfast trail",
+      "type": "Footfall",
+      "description": "A local breakfast route brought new faces into three partner kitchens.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "24 verified visits",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_d2f5a309",
+      "creatorId": "meena",
+      "title": "Pickle pre-order",
+      "type": "Purchase / Conversion",
+      "description": "Story replies turned into pre-orders for a home kitchen.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "17 orders",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_5457e33f",
+      "creatorId": "priya",
+      "title": "Sustainable closet edit",
+      "type": "Campaign Result",
+      "description": "A styling story helped a small label understand what customers wanted.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "18 saves to store",
+      "status": "BRAND_VERIFIED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_bc1728e4",
+      "creatorId": "rahul",
+      "title": "Launch stream",
+      "type": "Campaign Result",
+      "description": "A creator-led launch stream for a new game.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "4.2K views",
+      "status": "CREATOR_SUBMITTED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    },
+    {
+      "_id": "receipt_40a8c776",
+      "creatorId": "karthik",
+      "title": "Staycation guide",
+      "type": "Campaign Result",
+      "description": "A practical local guide drove booking enquiries.",
+      "date": "2026-06-18",
+      "brand": "Coimbatore Coffee House",
+      "campaign": "Local stories",
+      "result": "9 booking enquiries",
+      "status": "CREATOR_SUBMITTED",
+      "visibility": "Public",
+      "evidenceUrl": ""
+    }
+  ],
+  "announcements": [
+    {
+      "_id": "coffee-announcement",
+      "brandId": "coffee-house",
+      "title": "The ₹100 College Food Challenge",
+      "brand": "Coimbatore Coffee House",
+      "category": "Food",
+      "location": "Coimbatore",
+      "description": "Looking for an innovative food advertisement targeting college students. Make a small budget feel like a big story.",
+      "budget": "₹10,000",
+      "budgetType": "PAID",
+      "duration": "14 days",
+      "deadline": "18 Sep 2026",
+      "slots": 5,
+      "objective": "Drive weekday student visits",
+      "impact": [
+        "Footfall",
+        "Coupon Redemption"
+      ],
+      "platform": "Instagram Reel + Stories"
+    },
+    {
+      "_id": "fitzone-announcement",
+      "brandId": "coffee-house",
+      "title": "Move Your Way",
+      "brand": "FitZone Gym",
+      "category": "Lifestyle",
+      "location": "Coimbatore",
+      "description": "Show students and first-jobbers that a gym can feel welcoming, local and fun.",
+      "budget": "₹6,000 + membership",
+      "budgetType": "PAID + BARTER",
+      "duration": "30 days",
+      "deadline": "25 Sep 2026",
+      "slots": 3,
+      "objective": "Trial memberships",
+      "impact": [
+        "Customer Response",
+        "Campaign Result"
+      ],
+      "platform": "Reels + UGC"
+    },
+    {
+      "_id": "threads-announcement",
+      "brandId": "coffee-house",
+      "title": "Made for the everyday",
+      "brand": "Local Threads",
+      "category": "Fashion",
+      "location": "Bengaluru",
+      "description": "A capsule collection story from people who actually wear it.",
+      "budget": "Barter",
+      "budgetType": "BARTER",
+      "duration": "21 days",
+      "deadline": "02 Oct 2026",
+      "slots": 4,
+      "objective": "Collect styling stories",
+      "impact": [
+        "Customer Response",
+        "Word of Mouth"
+      ],
+      "platform": "Instagram carousel"
+    }
+  ],
+  "pitches": [
+    {
+      "_id": "pitch-basic",
+      "announcementId": "coffee-announcement",
+      "creatorId": "rahul",
+      "title": "A great cup, reviewed",
+      "concept": "A clean 60-second review of the cafe menu with a strong visual hook.",
+      "expectedImpact": "Reach students looking for a new study spot.",
+      "budget": "₹2,000",
+      "status": "SHORTLISTED",
+      "receipts": 1,
+      "updatedAt": "2026-09-06T03:55:19.739Z"
+    },
+    {
+      "_id": "pitch-challenge",
+      "announcementId": "coffee-announcement",
+      "creatorId": "arjun",
+      "title": "₹100 College Food Challenge",
+      "concept": "I take three students through a full coffee-house meal under ₹100, then let the audience choose the next combo. The coupon becomes the plot twist.",
+      "expectedImpact": "30+ verified visits, 50 coupon scans, and a repeatable UGC prompt for campus groups.",
+      "budget": "₹2,000",
+      "status": "ACCEPTED",
+      "receipts": 12,
+      "updatedAt": "2026-09-06T03:55:22.224Z"
+    },
+    {
+      "_id": "pitch-meena",
+      "announcementId": "coffee-announcement",
+      "creatorId": "meena",
+      "title": "The breakfast before class",
+      "concept": "A warm, hyper-local morning route featuring the people, smells and two-minute rituals that make the cafe part of campus life.",
+      "expectedImpact": "25 local visits and 15 redemptions in week one.",
+      "budget": "₹2,000",
+      "status": "SUBMITTED",
+      "receipts": 8
+    },
+    {
+      "_id": "pitch_735411ff",
+      "announcementId": "fitzone-announcement",
+      "creatorId": "arjun",
+      "status": "SUBMITTED",
+      "title": "JSON flow pitch",
+      "concept": "A practical local story",
+      "expectedImpact": "More visits",
+      "budget": "?2000"
+    },
+    {
+      "_id": "pitch_0a5bf955",
+      "announcementId": "coffee-announcement",
+      "creatorId": "arjun",
+      "status": "SUBMITTED",
+      "title": "incwe",
+      "concept": " de wj",
+      "story": "",
+      "content": "",
+      "integration": "",
+      "audience": "",
+      "impact": "",
+      "budget": "₹2,000",
+      "timeline": "14 days"
+    },
+    {
+      "_id": "pitch_54e71a3f",
+      "announcementId": "threads-announcement",
+      "creatorId": "arjun",
+      "title": "Everyday thread, one real outfit",
+      "concept": "A local styling story with one customer and one useful look.",
+      "story": "Show the person, place and product in one short narrative.",
+      "content": "Carousel + stories",
+      "integration": "",
+      "audience": "",
+      "expectedImpact": "15 styling saves",
+      "timeline": "21 days",
+      "budget": "Barter",
+      "status": "SHORTLISTED",
+      "createdAt": "2026-09-06T03:48:29.878Z",
+      "updatedAt": "2026-09-06T03:52:05.795Z"
+    }
+  ],
+  "verifications": [
+    {
+      "_id": "verification_2de2e058",
+      "receiptId": "receipt_81773a28",
+      "creatorId": "arjun",
+      "decision": "REQUESTED",
+      "createdAt": "2026-09-05T14:48:55.860Z"
+    },
+    {
+      "_id": "verification_c271cc1d",
+      "receiptId": "receipt_81773a28",
+      "brandId": "coffee-house",
+      "decision": "BRAND_VERIFIED",
+      "createdAt": "2026-09-05T14:48:55.882Z"
+    },
+    {
+      "_id": "verification_a896f758",
+      "receiptId": "receipt_d3cd8ea6",
+      "creatorId": "arjun",
+      "decision": "REQUESTED",
+      "createdAt": "2026-09-06T03:48:28.189Z"
+    },
+    {
+      "_id": "verification_26d86bc6",
+      "receiptId": "receipt_d3cd8ea6",
+      "brandId": "coffee-house",
+      "decision": "BRAND_VERIFIED",
+      "createdAt": "2026-09-06T03:48:29.843Z"
+    }
+  ],
+  "shortlists": [
+    {
+      "_id": "shortlist_d041432b",
+      "brandId": "coffee-house",
+      "creatorId": "arjun"
+    }
+  ],
+  "collaborations": [
+    {
+      "_id": "collab-demo",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "campaign": "Monsoon menu launch",
+      "status": "COMPLETED",
+      "budget": "₹8,000",
+      "paymentType": "PAID",
+      "progress": 100,
+      "milestones": [
+        {
+          "title": "Concept approved",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": true
+        },
+        {
+          "title": "Campaign completed",
+          "done": true
+        }
+      ],
+      "completedAt": "2026-09-06T03:56:03.501Z"
+    },
+    {
+      "_id": "collaboration_90c76d79",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "status": "COMPLETED",
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": true
+        },
+        {
+          "title": "Campaign completed",
+          "done": true
+        }
+      ],
+      "campaign": "JSON flow collaboration",
+      "budget": "?2000",
+      "paymentType": "PAID",
+      "progress": 100
+    },
+    {
+      "_id": "collaboration_e757fd81",
+      "brandId": "coffee-house",
+      "creatorId": "meena",
+      "status": "COMPLETED",
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": true
+        },
+        {
+          "title": "Campaign completed",
+          "done": true
+        }
+      ],
+      "campaign": "₹100 College Food Challenge",
+      "deliverables": "1 Reel + 3 Stories",
+      "budget": "₹2,000",
+      "paymentType": "PAID",
+      "deadline": "2026-09-25",
+      "message": "We loved the way your receipt shows real student visits. Want to build this together?",
+      "progress": 100,
+      "completedAt": "2026-09-06T03:48:30.018Z"
+    },
+    {
+      "_id": "collaboration_970cd977",
+      "brandId": "coffee-house",
+      "creatorId": "karthik",
+      "campaign": "Backend collaboration flow",
+      "status": "COMPLETED",
+      "budget": "?3,000",
+      "paymentType": "PAID",
+      "deliverables": "1 local guide",
+      "deadline": "2026-09-30",
+      "message": "A complete request-to-vouch flow.",
+      "progress": 100,
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": true
+        },
+        {
+          "title": "Campaign completed",
+          "done": true
+        }
+      ],
+      "createdAt": "2026-09-06T03:51:53.227Z",
+      "completedAt": "2026-09-06T03:51:53.267Z"
+    },
+    {
+      "_id": "collaboration_acc931a9",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "campaign": "₹100 College Food Challenge",
+      "status": "ACTIVE",
+      "budget": "₹2,000",
+      "paymentType": "PAID",
+      "deliverables": "1 Reel + 3 Stories",
+      "deadline": "2026-09-25",
+      "message": "We loved the way your receipt shows real student visits. Want to build this together?",
+      "progress": 10,
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": false
+        },
+        {
+          "title": "Campaign completed",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-06T03:55:39.837Z"
+    },
+    {
+      "_id": "collaboration_cfd53db3",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "campaign": "hotel",
+      "status": "ACTIVE",
+      "budget": "₹5,000",
+      "paymentType": "PAID + BARTER",
+      "deliverables": "1 Reel + 3 Stories",
+      "deadline": "2026-09-30",
+      "message": "can we collab",
+      "progress": 10,
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": true
+        },
+        {
+          "title": "Content delivered",
+          "done": false
+        },
+        {
+          "title": "Campaign completed",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-06T05:50:50.967Z"
+    },
+    {
+      "_id": "collaboration_e41baf4b",
+      "brandId": "coffee-house",
+      "creatorId": "rahul",
+      "campaign": "Bundle campaign · The ₹100 College Food Challenge",
+      "status": "REQUESTED",
+      "budget": "₹5,000",
+      "paymentType": "PAID",
+      "deliverables": "Shared campaign bundle",
+      "deadline": "2026-09-30",
+      "message": "You are part of a split campaign bundle. The brand will confirm the shared milestones.",
+      "progress": 0,
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": false
+        },
+        {
+          "title": "Content delivered",
+          "done": false
+        },
+        {
+          "title": "Campaign completed",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-06T05:51:17.707Z"
+    },
+    {
+      "_id": "collaboration_81ff9a8f",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "campaign": "Bundle campaign · The ₹100 College Food Challenge",
+      "status": "REQUESTED",
+      "budget": "₹5,000",
+      "paymentType": "PAID",
+      "deliverables": "Shared campaign bundle",
+      "deadline": "2026-09-30",
+      "message": "You are part of a split campaign bundle. The brand will confirm the shared milestones.",
+      "progress": 0,
+      "milestones": [
+        {
+          "title": "Brief accepted",
+          "done": false
+        },
+        {
+          "title": "Content delivered",
+          "done": false
+        },
+        {
+          "title": "Campaign completed",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-06T05:51:17.725Z"
+    }
+  ],
+  "vouches": [
+    {
+      "_id": "vouch_d28948b1",
+      "collaborationId": "collaboration_90c76d79",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "text": "Clear, thoughtful local collaboration.",
+      "createdAt": "2026-09-05T14:48:56.835Z"
+    },
+    {
+      "_id": "vouch_d59ba035",
+      "collaborationId": "collaboration_e757fd81",
+      "brandId": "coffee-house",
+      "creatorId": "meena",
+      "text": "Backend smoke collaboration completed with a verified delivery.",
+      "createdAt": "2026-09-06T03:48:30.056Z"
+    },
+    {
+      "_id": "vouch_675ae021",
+      "userId": "meena-user",
+      "collaborationId": "collaboration_e757fd81",
+      "brandId": "coffee-house",
+      "creatorId": "meena",
+      "text": "The brief was clear and the collaboration stayed easy to deliver.",
+      "createdAt": "2026-09-06T03:51:34.458Z"
+    },
+    {
+      "_id": "vouch_00cf1c37",
+      "userId": "brand-user",
+      "collaborationId": "collaboration_970cd977",
+      "brandId": "coffee-house",
+      "creatorId": "karthik",
+      "text": "Karthik delivered a useful local guide and completed the brief on time.",
+      "createdAt": "2026-09-06T03:51:53.283Z"
+    },
+    {
+      "_id": "vouch_d3d323ad",
+      "userId": "arjun-user",
+      "collaborationId": "collab-demo",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "text": "Delivered the campaign on time and created a genuine customer response.",
+      "createdAt": "2026-09-06T03:57:28.613Z"
+    },
+    {
+      "_id": "vouch_ed8a5dea",
+      "userId": "arjun-user",
+      "collaborationId": "collaboration_90c76d79",
+      "brandId": "coffee-house",
+      "creatorId": "arjun",
+      "text": "Delivered the campaign on time and created a genuine customer response.",
+      "createdAt": "2026-09-06T03:57:32.483Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "message_13a1ccc2",
+      "senderId": "brand-user",
+      "recipientId": "arjun-user",
+      "recipient": "Arjun Menon",
+      "campaign": "JSON flow collaboration",
+      "text": "Smoke test message",
+      "createdAt": "2026-09-05T14:48:56.851Z"
+    },
+    {
+      "_id": "message_2f0ef65d",
+      "senderId": "brand-user",
+      "recipientId": "",
+      "recipient": "Arjun Menon",
+      "campaign": "Campaign context",
+      "text": "ok",
+      "createdAt": "2026-09-05T14:52:52.228Z"
+    },
+    {
+      "_id": "message_f4a89c79",
+      "senderId": "brand-user",
+      "recipientId": "arjun-user",
+      "recipient": "Arjun Menon",
+      "campaign": "Monsoon menu launch",
+      "text": "Backend smoke check: pitch and campaign context are connected.",
+      "createdAt": "2026-09-06T03:47:57.935Z"
+    },
+    {
+      "_id": "message_58e0811e",
+      "senderId": "brand-user",
+      "recipientId": "arjun-user",
+      "recipient": "Arjun Menon",
+      "campaign": "Campaign context",
+      "text": "whats your idea",
+      "createdAt": "2026-09-06T03:56:24.875Z"
+    },
+    {
+      "_id": "message_4dbcc8b5",
+      "senderId": "arjun-user",
+      "recipientId": "brand-user",
+      "recipient": "Coimbatore Coffee House",
+      "campaign": "Sponsor Match campaign conversation",
+      "text": "i will dm u",
+      "createdAt": "2026-09-06T04:23:28.110Z"
+    }
+  ],
+  "milestones": []
+}
